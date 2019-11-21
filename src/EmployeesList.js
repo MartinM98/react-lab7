@@ -7,6 +7,9 @@ const EmployeesList = (props) =>{
         <Employee key={Data.id} data={Data}/>)
     return(
         <div>
+            <font size="6">Employees</font>
+            <br/>
+            <br/>
             {employeesList}
         </div>
     )
