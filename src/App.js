@@ -1,9 +1,9 @@
 import React from 'react';
-
+import Component from './Component'
 function App() {
   return (
     <div>
-      Empty App
+    <Component/>
     </div>
   );
 }
