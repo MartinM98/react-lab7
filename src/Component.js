@@ -1,5 +1,6 @@
 import React from 'react'
 import EmployeesList from './EmployeesList';
+import AddComponent from './AddComponent';
 class Component extends React.Component
 {    
 constructor(props)
@@ -25,6 +26,7 @@ render()
    return(
     <div>
         <EmployeesList employees={this.state.employees}/>
+        <AddComponent />
     </div>
     )
 
